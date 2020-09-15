@@ -148,3 +148,8 @@ class Game
     game_over_message
   end
 end
+
+p1 = Player.new('player 1', 'X')
+p2 = Player.new('player 2', 'O')
+game = Game.new([p1, p2])
+# game.play
